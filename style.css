@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "PRegular";
+    src: url("8bitOperatorPlus8-Regular.ttf");
+}
+@font-face {
+    font-family: "PBold";
+    src: url("8bitOperatorPlus8-Bold.ttf"); /* see /license.txt */
+}
+::selection {
+    background-color: beige;
+    color: black;
+}
+body {
+    background-color: black;
+    color: beige;
+    font-family: PRegular;
+}
+td {
+    padding: 10px;
+}
+a {
+    color: beige;
+}
+a:hover {
+    color: darkorange;
+}
+.card {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.content {
+    padding: 20px 50px;
+    background-color: midnightblue;
+    border: 5px solid beige;
+}
+.address {
+    text-align: center;
+    margin: 0px;
+    font-family: PBold;
+}
+.address-desc {
+    text-align: center;
+    font-size: 24px;
+}
+.links {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 24px;
+}
