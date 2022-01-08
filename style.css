@@ -11,8 +11,17 @@
     color: black;
 }
 body {
+    padding: 0px;
+    margin: 0px;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
     background-color: black;
     color: beige;
+    text-shadow: 1px 1px black;
     font-family: PRegular;
 }
 td {
@@ -25,24 +34,26 @@ a:hover {
     color: darkorange;
 }
 .card {
-    width: 500px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    display: table-cell;
+    vertical-align: middle;
 }
 .content {
     padding: 20px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
     background-color: midnightblue;
     border: 5px solid beige;
 }
 .address {
     text-align: center;
     margin: 0px;
+    text-shadow: 3px 3px black;
     font-family: PBold;
 }
 .address-desc {
     text-align: center;
+    text-shadow: 2px 2px black;
     font-size: 24px;
 }
 .links {
