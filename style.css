@@ -31,7 +31,13 @@ a {
     color: beige;
 }
 a:hover {
-    color: darkorange;
+    background-color: beige;
+    color: midnightblue;
+}
+a:focus-visible {
+    background-color: beige;
+    color: midnightblue;
+    outline: none;
 }
 .card {
     display: table-cell;
