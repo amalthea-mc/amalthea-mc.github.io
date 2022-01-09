@@ -26,27 +26,6 @@ body {
     font-family: PRegular;
 }
 
-@media only screen and (max-width: 768px) {
-    .content {
-        width: 100vw;
-        
-    }
-    
-    .address {
-        font-size: 160%;
-        
-    }
-    
-    .address-desc {
-        font-size: 140%;
-    }
-    
-    .links {
-        margin-top: 10px;
-        font-size: 140%;
-    }
-}
-
 a {
     color: beige;
 }
@@ -92,4 +71,25 @@ a:focus-visible {
 
 .links > a {
     margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        width: 60vw;
+        
+    }
+    
+    .address {
+        font-size: 160%;
+        
+    }
+    
+    .address-desc {
+        font-size: 140%;
+    }
+    
+    .links {
+        margin-top: 10px;
+        font-size: 140%;
+    }
 }
