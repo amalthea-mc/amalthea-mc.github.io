@@ -15,8 +15,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    left: 0;
-    top: 0;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -40,6 +38,8 @@ a:focus-visible {
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     padding: 20px 50px;
     margin-left: auto;
     margin-right: auto;
@@ -52,19 +52,20 @@ a:focus-visible {
     margin: 0px;
     text-shadow: 3px 3px black;
     font-family: PBold;
+    align-self: center;
 }
 .address-desc {
     text-align: center;
     text-shadow: 2px 2px black;
     font-size: 24px;
+    align-self: center;
 }
 .links {
     width: 100%;
     margin: auto;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-size: 24px;
     justify-content: space-between;
 }
