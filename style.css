@@ -10,23 +10,43 @@
     background-color: beige;
     color: black;
 }
+
 body {
-    padding: 0px;
-    margin: 0px;
-    display: table;
-    position: absolute;
-    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     left: 0;
+    top: 0;
     height: 100%;
     width: 100%;
+    position: fixed;
     background-color: black;
     color: beige;
     text-shadow: 1px 1px black;
     font-family: PRegular;
 }
-td {
-    padding: 10px;
+
+@media only screen and (max-width: 768px) {
+    .content {
+        width: 100vw;
+        
+    }
+    
+    .address {
+        font-size: 160%;
+        
+    }
+    
+    .address-desc {
+        font-size: 140%;
+    }
+    
+    .links {
+        margin-top: 10px;
+        font-size: 140%;
+    }
 }
+
 a {
     color: beige;
 }
@@ -39,10 +59,7 @@ a:focus-visible {
     color: midnightblue;
     outline: none;
 }
-.card {
-    display: table-cell;
-    vertical-align: middle;
-}
+
 .content {
     padding: 20px 50px;
     margin-left: auto;
@@ -65,6 +82,14 @@ a:focus-visible {
 .links {
     width: 100%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 24px;
+    justify-content: space-between;
+}
+
+.links > a {
+    margin: 10px;
 }
