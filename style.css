@@ -8,6 +8,7 @@
 }
 ::selection {
     background-color: beige;
+    text-shadow: 1px 1px beige;
     color: black;
 }
 
