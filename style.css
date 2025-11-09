@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PRegular";
-    src: url("8bitOperatorPlus8-Regular.ttf");
+    src: url("/fonts/8bitOperatorPlus8-Regular.ttf");
 }
 @font-face {
     font-family: "PBold";
-    src: url("8bitOperatorPlus8-Bold.ttf"); /* see /license.txt */
+    src: url("/fonts/8bitOperatorPlus8-Bold.ttf");
 }
 ::selection {
     background-color: beige;
