@@ -84,16 +84,16 @@ a:focus-visible {
     }
 
     .address {
-        font-size: 1.1rem;
+        font-size: 1.15rem;
 
     }
     
     .address-desc {
-        font-size: 110%;
+        font-size: 130%;
     }
     
     .links {
         margin-top: 10px;
-        font-size: 110%;
+        font-size: 130%;
     }
 }
