@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PRegular";
-    src: url("/fonts/8bitOperatorPlus8-Regular.ttf");
+    src: url("fonts/8bitOperatorPlus8-Regular.ttf");
 }
 @font-face {
     font-family: "PBold";
-    src: url("/fonts/8bitOperatorPlus8-Bold.ttf");
+    src: url("fonts/8bitOperatorPlus8-Bold.ttf");
 }
 ::selection {
     background-color: beige;
@@ -51,15 +51,16 @@ a:focus-visible {
 }
 .address {
     text-align: center;
-    margin: 0px;
+    margin: 0.5em;
     text-shadow: 3px 3px black;
     font-family: PBold;
+    font-size: 1.8rem;
     align-self: center;
 }
 .address-desc {
     text-align: center;
     text-shadow: 2px 2px black;
-    font-size: 24px;
+    font-size: 1.5rem;
     align-self: center;
 }
 .links {
@@ -81,18 +82,18 @@ a:focus-visible {
         width: 60vw;
         
     }
-    
+
     .address {
-        font-size: 160%;
-        
+        font-size: 1.1rem;
+
     }
     
     .address-desc {
-        font-size: 140%;
+        font-size: 110%;
     }
     
     .links {
         margin-top: 10px;
-        font-size: 140%;
+        font-size: 110%;
     }
 }
